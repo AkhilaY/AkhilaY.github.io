@@ -1,0 +1,346 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(167, 197, 227);
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+nav a {
+    color: rgb(244, 246, 250);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.bio h2 {
+    text-align: center;
+    color: rgb(6, 9, 11);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+
+}
+
+.bio p {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: rgb(5, 7, 10);
+    font-size: 19px;
+    
+}
+
+.bio img {
+    max-width: 100%;
+    margin-top: 2%;
+    margin-left: 35%;
+    border-style: solid white;
+    border-width: 5px;
+
+}
+
+ .bio {
+    background-color: rgb(217, 207, 229);
+} 
+
+footer {
+    background-color: rgb(167, 197, 227);
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.Heading {
+    position: relative;
+    background-color: blanchedalmond;
+    background-size: cover;
+    padding: 190px 10px 200px 200px;
+    background-image: url(https://images.unsplash.com/photo-1570304816841-906a17d7b067?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3JTIweW9yayUyMHNreWxpbmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+}
+
+.Heading img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    image-rendering: crisp-edges;
+}
+
+.Heading .img1 {
+
+    position: absolute;
+    z-index: 1;
+
+}
+
+.Heading .img1 {
+    top: 10px;
+    margin: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.Content {
+    background-color: rgb(217, 207, 229)
+}
+
+.Content hr {
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.Heading h1 {
+
+    z-index: 1;
+    color: rgb(12, 12, 12);
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+
+}
+
+.Heading h2 {
+    text-align: right;
+    z-index: 2;
+    color: rgb(11, 10, 10);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.three-col li {
+    display: grid;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(229, 229, 238);
+    text-decoration: underline;
+}
+
+
+hr {
+    color: rgb(96, 143, 205);
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    background-color: rgb(238, 237, 238);
+    background-color: rgb(217, 207, 229)
+
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(105, 105, 241);
+    font-size: 30px;
+
+
+}
+
+.about a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(105, 105, 241);
+}
+
+.about a:hover {
+    color: rgb(7, 8, 8);
+}
+
+.about {
+    background-color: rgb(217, 207, 229)
+}
+
+.Languages {
+    display: grid;
+    border: 3px solid rgb(235, 157, 55);
+    background-color: rgb(238, 237, 238);
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+.Languages:hover {
+    box-shadow: 10px 5px 5px rgb(229, 167, 74);
+}
+
+.Languages h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.Languages img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.Languages ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.Leadership {
+    display: grid;
+    border: 3px solid rgb(133, 187, 227);
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(238, 237, 238);
+}
+
+.Leadership:hover {
+    box-shadow: 10px 5px 5px rgb(78, 135, 189);
+}
+
+.Leadership ul {
+    display: grid;
+}
+
+.Leadership h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.Leadership img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.Skills {
+    display: grid;
+    border: 3px solid #ef9af0;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(238, 237, 238);
+}
+.Skills:hover {
+
+    box-shadow: 10px 5px 5px rgb(236, 144, 237);
+}
+
+.Skills ul {
+    display: grid;
+
+}
+
+.Skills h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Skills img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.publication {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(245, 240, 233);
+    color:rgb(116, 73, 141)
+
+}
+
+.one-col {
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    gap: 20px;
+
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+input {
+    color: rgb(2, 2, 2);
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+}
+
+textarea {
+    color: rgb(224, 201, 201);
+}
+
+.card {
+    border: 2px solid rgb(78, 166, 238);
+    border-width: 5px;
+    display: grid;
+    padding: 3%;
+    width: 200px;
+    margin-left: 40%;
+    margin-right: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #b4cbeb;
+
+}
+
+.info {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.info hr {
+    color: black;
+    border-style: double;
+}
+
+
+
+
