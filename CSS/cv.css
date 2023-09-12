@@ -192,9 +192,13 @@ hr {
 .Languages {
     display: grid;
     border: 3px solid rgb(235, 157, 55);
-    box-shadow: 10px 5px 5px rgb(229, 167, 74);
+    
     font-family: 'Raleway', sans-serif;
 
+}
+
+.Languages:hover {
+    box-shadow: 10px 5px 5px rgb(229, 167, 74);
 }
 
 .Languages h3 {
@@ -221,8 +225,11 @@ hr {
     display: grid;
     border: 3px solid rgb(133, 187, 227);
     text-align: left;
-    box-shadow: 10px 5px 5px rgb(78, 135, 189);
     font-family: 'Raleway', sans-serif;
+}
+
+.Leadership:hover {
+    box-shadow: 10px 5px 5px rgb(78, 135, 189);
 }
 
 .Leadership ul {
@@ -246,8 +253,11 @@ hr {
     display: grid;
     border: 3px solid #ef9af0;
     text-align: left;
-    box-shadow: 10px 5px 5px rgb(236, 144, 237);
     font-family: 'Raleway', sans-serif;
+}
+.Skills:hover {
+
+    box-shadow: 10px 5px 5px rgb(236, 144, 237);
 }
 
 .Skills ul {
