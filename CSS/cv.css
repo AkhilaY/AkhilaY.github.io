@@ -35,6 +35,7 @@ nav a:hover {
     font-family: 'Inter', sans-serif;
     text-align: center;
     color: rgb(5, 7, 10);
+    font-size: 19px;
     
 }
 
@@ -47,9 +48,9 @@ nav a:hover {
 
 }
 
-.bio {
+ .bio {
     background-color: rgb(217, 207, 229);
-}
+} 
 
 footer {
     background-color: rgb(167, 197, 227);
@@ -113,7 +114,7 @@ footer a:hover {
     color: black;
     border-style: solid;
     border-width: 1px;
-    ;
+    
 }
 
 .Heading h1 {
@@ -154,9 +155,9 @@ a:hover {
 
 
 hr {
-    color: rgb(205, 96, 96);
+    color: rgb(96, 143, 205);
     border-style: dashed;
-    border-width: 3px;
+    border-width: 2px;
 }
 
 .three-col {
@@ -164,6 +165,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     background-color: rgb(238, 237, 238);
+    background-color: rgb(217, 207, 229)
 
 }
 
@@ -192,8 +194,9 @@ hr {
 .Languages {
     display: grid;
     border: 3px solid rgb(235, 157, 55);
-    
+    background-color: rgb(238, 237, 238);
     font-family: 'Raleway', sans-serif;
+    
 
 }
 
@@ -226,6 +229,7 @@ hr {
     border: 3px solid rgb(133, 187, 227);
     text-align: left;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(238, 237, 238);
 }
 
 .Leadership:hover {
@@ -254,6 +258,7 @@ hr {
     border: 3px solid #ef9af0;
     text-align: left;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(238, 237, 238);
 }
 .Skills:hover {
 
@@ -334,5 +339,8 @@ textarea {
 .info hr {
     color: black;
     border-style: double;
-
 }
+
+
+
+
